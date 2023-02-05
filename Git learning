@@ -1,7 +1,21 @@
 Git
 
-Git版本控制系统，
+廖雪峰官方网站https://www.liaoxuefeng.com
 
-hello my first git document
+Git分布式版本控制系统，实现，代码版本管理、代码比较、协同管理的功能。
+  免费版本控制系统：CVS、SVN，集中式版本控制、必须联网。
 
+linux 
+1991：开源；
+~2002：源代码文件通过diff 方式发由linus本人手动合并代码；
+~2005：使用商业版本控制系统bitkeeper；
+~2008：linus用C写了Git，08年上线，为开源项目免费提供Git存储，jQuery、PHP、ruby迁移到GitHub；
+
+集中式版本控制系统：（SVN、CSV、ClearCase、VSS）
+使用中央服务器储存版本，本地贮存，修改后提交中央。必须联网。
+
+分布式版本控制系统：（Git、Mercurial、Bazaar）
+没有中央概念，分布各地均为完整版本库，版本修改互相推送、合并，但通常需要一个中央服务器作为中间媒介。
+
+！！！分布式的核心涉及式同步，而非主从。
 
